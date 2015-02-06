@@ -1,0 +1,35 @@
+h1 {
+    color: darkblue;
+    font-size: 28px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: darkslategray;
+    font-size: 14px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#first-item {
+    border-top: solid grey;
+}
+
+li {
+    color: orangered;
+    font-size: 14px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    font-size: 14px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.veggie {
+    color: green;
+}
+
+.carni {
+    color: darkred;
+}
