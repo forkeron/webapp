@@ -1,9 +1,15 @@
 h1 {
-    color: darkblue;
+    color: darkslategrey;
     font-size: 28px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h2 {
+    color: darkslategrey;
+}
+h4 {
+    color: darkgreen;
+}
 p {
     color: darkslategray;
     font-size: 14px;
@@ -21,7 +27,7 @@ li {
 }
 
 a {
-    color: blue;
+    color: darkslategrey;
     font-size: 14px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -32,4 +38,8 @@ a {
 
 .carni {
     color: darkred;
+}
+
+.menuSection {
+    color: darkslategrey;
 }

@@ -1,23 +1,59 @@
-
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Martin's Pizza Oven</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<h1>Martin's Pizza Oven</h1>
-<p>Welcome to our pizzeria in a garden!</p>
-<p>Please check-out our Menu:</p>
-<ul>
-    <li><a href="meatPizzaList.html" id="first-item" class="carni">Meat topped Pizzas</a></li>
-    <li><a href="meatCalzoneList.html" class="carni">Meat Calzone Selection</a></li>
-    <li><a href="vegPizzaList.html" class="veggie">Vegetarian Pizzas</a></li>
-    <li><a href="vegCalzoneList.html" class ="veggie">Vegetarian Calzone Selection</a></li>
-    <li><a href="drinksList.html">Our drinks selection</a></li>
-</ul>
+<header>
+    <<!--div class="background" style="background-image: url(./img/genericPizzaOven.jpg);"
+         data-0="transform:translateY(0px); opacity: 1;" data-100p="transform:translateY(-200px); opacity: 0;">
+    </div>-->
+</header>
+<div class="container">
+    <div class="jumbotron">
+      <h1>Martin's Pizza Oven</h1>
+        <p>Welcome to our pizzeria oven!</p>
+        <p>Please check-out our Menu:</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="page-header">
+                <a href="pizzaList.html" class="menuSection"><h2>Pizza</h2></a>
+            </div>
+            <img src="img/genericPizza.jpg" class="img-rounded img-responsive"/>
+        </div>
 
+        <div class="col-md-6">
+            <div class="page-header">
+                <a href="drinksList.html" class="menuSection"><h2>Drinks</h2></a>
+            </div>
+            <img src="img/genericDrinks.jpg" class="img-rounded img-responsive"/>
+        </div>
+    </div>
+    <p></p>
+    <div class="row">
+        <div class="col-md-8" id="greeting">
+              <!--<form id="greeting-form" class="form-inline">-->
+            <form id="greeting-form" method="post" action="/booking">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="fullName" class="form-control" placeholder="Your full name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="emailAddress" class="form-control" placeholder="A valid email address please" required>
+                </div>
+                <button class="btn btn-default" type="submit">OK</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="jquery.js"></script>
+<script src="myfrontend.js"></script>
 </body>
 </html>
